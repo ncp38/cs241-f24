@@ -11,11 +11,11 @@ Thu, Aug 29
 
 Tue, Sep 3
 : **Java Review, cont.**  
-[Project 1](projects/proj1), due Sep 11
+[Project 1](projects/proj1){: .label .label-proj } (due 9/11/24)
 
 Thu, Sep 5
 : **List ADT**  
-[Homework 1]{: .label .label-hw }(homework/hw1/hw1.pdf), due Sep 17
+[Homework 1]{: .label .label-hw }(homework/hw1/hw1.pdf) (due 9/17/24)
 
 Tue, Sep 10
 : **ArrayLists and Big O**  
