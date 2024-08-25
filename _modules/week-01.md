@@ -74,7 +74,7 @@ Thu, Oct 24
 
 Tue, Oct 29
 : **Mergesort**
-: [Reading] (https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f){: .label .label-reading} Ch. 8.6: Mergesort
+: [Reading](https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f){: .label .label-reading} Ch. 8.6: Mergesort
 : [Homework 4](homework/hw4/hw4.pdf){: .label .label-hw } due Nov 5 on paper
 : [Project 5](projects/proj5){: .label .label-proj } due Nov 14 
 
