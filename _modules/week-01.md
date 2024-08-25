@@ -11,7 +11,7 @@ Thu, Aug 29
 
 Tue, Sep 3
 : **Java Review, cont.**  
-[Project 1](projects/proj1){: .label .label-proj } due Sep. 11
+[**Project 1**](projects/proj1){: .label .label-proj } due Sep. 11
 
 Thu, Sep 5
 : **List ADT**  
