@@ -6,183 +6,118 @@ title: ""
 
 
 Thu, Aug 29
-: **Introduction, go over syllabus, introduce Java.**  
-  Printing, variables, user input, math, if/else, loops.  
-  [Java basics](lectures/intro/java-basics.pdf).
-: [**Slides**](lectures/intro/CS142Intro1Slides.pdf){: .label-button } 
-: **Reading**{: .label .label-reading} Liang chapter 2 (basics), chapter 3 (if statements).
+: **Introduction and Java Review**  
+
 
 Tue, Sep 3
-: **Continue with Java.**  
-  Random number generation, while loops.  
-  [Programs for today](lectures/intro/scheduleLab1.pdf)
-  [while loop handout](lectures/intro/while-loops-handout.pdf).
-: [**Example Code**](lectures/intro/introductionToJava.java){: .label-button } 
-  [**The Problem Code**](lectures/intro/problemCode.java){: .label-button }   
-: **Reading**{: .label .label-reading} Liang chapter 5 (loops).
+: **Java Review, cont.**  
+[Project 1, due Sep 11](projects/proj1)
 
 Thu, Sep 5
-: **Continue with Java.**  
-  For loops and functions.  
-  [for loop handout](lectures/intro/for-loops-handout.pdf)
- [**For Loop Code**](lectures/intro/forLoop.java){: .label .label-button }
-:  [Functions handout](lectures/intro/functions-handout.pdf),
-  [functions practice](lectures/intro/functions-practice.pdf).  
-: **Reading**{: .label .label-reading} Liang chapter 5 (loops) and chapter 6 (functions).
+: **List ADT**  
+[Homework 1, due Sep 17](homework/hw1/hw1.pdf) 
 
 Tue, Sep 10
-: **Practice with functions, intro to OOP.**  
-  -Continue out-of-class work on functions handout.
-:  [**Functions with arrays**](lectures/oop/Arrays and Functions.pdf).  
-  [Starting code](lectures/oop/classPracticeBlank.java).  
-: **Reading**{: .label .label-reading} Liang 7.0-7.8 (arrays).
- : **Project**{: .label .label-proj } [**Project 1**](projects/proj1) (due Thu, Sep 7)
+: **ArrayLists and Big O**  
 
 Thu, Sep 12
-: **Lab**{: .label .label-lab }  [**Lab 1**](labs/lab1/)
+: **Big Oh, cont.**
+[Reading](https://rhodes.box.com/s/wjf7eyei6v16rbluzc4ci9rckup7hvro) (Ch. 2.1: Big O running time)
 
 Tue, Sep 17
-: **Labor Day**
+: **Recursive Big O and Linked Lists**
+[Reading](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380) (Ch. 2.6: Singly-linked lists) 
+[Project 2](projects/proj2), due Sep 26
 
 Thu, Sep 19
-: **Object-Oriented Programming II**  
-  Digging in deeper to OOP concepts and terminology.  Using classes and functions designed by others.
-:  [**Start-up: Accessing in-class code examples**](lectures/oop/VCSSetup.pdf)
-:  [OOP definitions](lectures/oop/oop-defs.pdf)
-:  [SimpleCanvas and Color APIs](lectures/oop/simplecanvas-and-color.pdf)
-:  [Code Source](https://github.com/ncp38/cs142-f23-inclass/tree/main/oop1){: .label-button } 
-<!---: [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/oop1){: .label-button } 
-  [**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/oop1){: .label-button }--->
-: **Reading**{: .label .label-reading} Sedgewick & Wayne 3.1, pp. 329-325 (OO concepts).
-: **Homework**{: .label .label-hw } [**Homework 1**](homework/hw1) (due Thu, Sep 14)
+: **Singly-linked lists**
 
 Tue, Sep 24
-: **Lab**{: .label .label-lab } [**Lab 2**](labs/lab2/)
+: **Doubly-linked lists**
+[Reading](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5) (Ch. 2.7: Doubly-linked lists) 
+[Homework 2](homework/hw2/hw2.pdf), due Oct 1 on paper
 
 Thu, Sep 26
-: **Object-Oriented Programming III**  
-  OOP "gotchas" and learning about references.  
-  [Gotchas handout](lectures/oop/oop-gotchas-handout.pdf)
-<!---: [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/oop1){: .label-button } 
-  [**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/oop1){: .label-button }--->
-: **Reading**{: .label .label-reading} Liang chapter 8 (multidimensional arrays).
-  
-Tue, Oct 1 <!---Cancel?? Or Zoom class?--->
-:  A series of lectures to watch followed by in-class work!  
-:  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
-:  [Lecture 2 - Design Choices](https://rhodes.instructuremedia.com/embed/c1553cb0-476d-45c3-b56c-277d4420e8da){: .label-button } 
-:  [Lecture 3 - SimpleCanvas & In-Class Work](https://rhodes.instructuremedia.com/embed/b5ee1d41-8556-4609-93ed-cade4dc2aea8){: .label-button }
+: **Stacks, queues, and quadratic sorting**  
+ [Reading](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9) (Ch. 8.3-8.4: Quadratic sorting)
+ 
+Tue, Oct 1 
+: **Finish quadratic sorting**
+[Project 3](projects/proj3), due Oct 14  
   
 Thu, Oct 3
-: **Lab**{: .label .label-lab } [**Lab 3**](labs/lab3/)
+: **Exam I**{: .label .label-exam }
 
 Tue, Oct 8
-: **Creating Classes I**  
-  Learning how to design simple classes.  
-  [Class design handout](lectures/oop/oop-creating-classes-handout.pdf)
-: [**Slides**](lectures/oop/oop-creating-classes-slides1.pdf){: .label-button } 
-<!---  [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/oop2){: .label-button } 
-  [**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/oop2){: .label-button }--->
-: **Reading**{: .label .label-reading} Liang 9.1-9.3, 9.5 (creating classes).
-: **Project**{: .label .label-proj } [**Project 2**](projects/proj2) (due Thu, Sep 28)
+: **Set/Map ADTs**
+[Reading](https://rhodes.box.com/s/lr88jmz6ok8eyfc97jrilsmn5fmm93a8) (Ch. 7.1-7.2: Set/Map ADTs)
+[Project 4](projects/proj4), due Oct 25 
 
 Thu, Oct 10
-: **Creating Classes II**  
-  `public` and `private`.
-: **Reading**{: .label .label-reading} Liang 9.8 (public/private).
+: **Trees and traversals**  
+[Reading](https://rhodes.box.com/s/ug21aeha2rbrbd4ovybuty3k5anqe6gl) (Ch. 6.1-6.2: General trees)
 
 Tue, Oct 15
-: **Lab**{: .label .label-lab } [**Lab 4**](labs/lab4/)
+: **Binary Search Trees**
+[Reading](https://rhodes.box.com/s/3uvthh6s7uoahmwyu1vi6wlo2at1e55g) (Ch. 6.5: Binary search trees)
 
 Thu, Oct 17
-: **Creating Classes III**  
-  Constructors.
-: [**Slides**](lectures/oop/creating-classes-day2-slides.pdf){: .label-button } 
-: **Reading**{: .label .label-reading} Liang 9.4 (constructors).
-: **Homework**{: .label .label-hw } [**Homework 2**](homework/hw2) (due Mon, Oct 2)
+: **Hashing**  
+[Reading](https://rhodes.box.com/s/a3jk5a95msi8w5npdwoqsu05jh313uf8) (Ch. 7.3: Hashing) 
+[Homework 3](homework/hw3/hw3.pdf), due Oct 29 on paper
 
 Tue, Oct 22
 : No class, Fall break
 
 Thu, Oct 24
-: **OO Design Practices**  
-  Designing a `Fraction` class.
-: [Fraction Class Handout](lectures/oop/fraction-class-handout.pdf)
-: [**Exam Review (writing code)**](lectures/examPrep/midterm1-prac-inclass.pdf){: .label-button } 
-: [**Exam Review (interpreting code)**](lectures/examPrep/midterm1-prac-additional.pdf){: .label-button } 
-<!---:   [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/fraction){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/fraction){: .label-button }--->
+: **Hashing**   
 
 Tue, Oct 29
-: **Lab**{: .label .label-lab } [**Lab 5**](labs/lab5/)
+: **Mergesort**
+[Reading](https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f) (Ch. 8.6: Mergesort)
+[Homework 4](homework/hw4/hw4.pdf), due Nov 5 on paper
+[Project 5](projects/proj5), due Nov 14 
 
 Thu, Oct 31
-: **Review for midterm**
-<!---:   [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/midterm1prep){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/midterm1prep){: .label-button }--->
+: **Quicksort**
+[Reading](https://rhodes.box.com/s/bhl0chfajgxhoii22nnqkkgs632j4se7) (Ch. 8.9: Quicksort)   
 Happy Halloween!
 
 Tue, Nov 5
-: **OO Design Practices**  
-  More practice with the `Fraction` class.
-<!---:   [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/fraction){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/fraction){: .label-button }--->
-: [**Exam Review Solutions (writing code)**](lectures/examPrep/midterm1-prep-inclass-sol.pdf){: .label-button } 
-: [**Exam Review Solutions (interpreting code)**](lectures/examPrep/midterm1-prep-addl-sol12.pdf){: .label-button } 
-: [**Exam Review Solutions (interpreting code, final question)**](lectures/examPrep/midterm1-prep-addl-sol3.pdf){: .label-button } 
+: **Review/catchup**  
 
 Thu, Nov 7
-: **Midterm I**{: .label .label-exam }
+: **Exam II**{: .label .label-exam } 
 
 Tue, Nov 12
-: **ArrayLists, Strings, and File Reading**  
-  [String handout](lectures/arraylists-str/strings-handout.pdf),
-  [ArrayList handout](lectures/arraylists-str/arraylists-handout.pdf),
-  [Practice problems](lectures/arraylists-str/practice.pdf)
-<!---:   [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/prebreak/Exercises.java){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/prebreak/Exercises.java){: .label-button }--->
-: **Project**{: .label .label-proj } [**Project 3**](projects/proj3) (due Tue, Oct 24)
+: **Graphs**  
+[Reading](https://rhodes.box.com/s/vpgubmzkhc2nyl5m808e5pdstfgt9tbz) (Ch. 10.1: Graphs)
 
 Thu, Nov 14
-: **ArrayLists, Strings, and File Reading**  
-  Continue practice from Wednesday.
-<!---:   [**10am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/prebreak/Exercises.java){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/prebreak/Exercises.java){: .label-button }--->
-: **Reading**{: .label .label-reading} Liang 11.11 (ArrayLists), 4.4 and 10.10 (strings).
+: **Graph Implementations**  
 
 Tue, Nov 19
-: **Lab**{: .label .label-lab } [**Lab 6**](labs/lab6/)
+: **Dijkstra's Algorithm**
+[Reading](https://rhodes.box.com/s/pp4pwn50elcvjddjh0djlrxyregoitsu) (Ch. 10.6: Dijkstra's algorithm) 
+[Project 6](projects/proj6), due Dec 4
 
 Thu, Nov 21
-: **Fall break**
+: **Breadth-first search, depth-first search**
 
 Tue, Nov 26
-: **Recursion I**  
-  [Recursion handout](lectures/recursion/recursion-handout.pdf)
-: [**Slides**](lectures/recursion/recursion-1-slides.pdf){: .label-button } 
-	[**Recursion 1**](https://github.com/ncp38/cs142-f23-inclass/tree/main/src/recursion/Recursion1.java){: .label-button } 
-: **Reading**{: .label .label-reading} Liang 18.1-18.2 (recursion intro).
+: **Priority queues and heaps**  
 
 Thu, Nov 28
 : No class, Thanksgiving break
 
 Tue, Dec 3
-: **Lab**{: .label .label-lab } [**Lab 7**](labs/lab7/)
+: **Bellman-Ford or Travelling Salesman**
 
 Thu, Dec 5
-: **Recursion II**
-<!---:   [**10pm code**](https://github.com/pkirlin/cs142-f22-inclass/tree/10am/src/recursion/Recursion2.java){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/tree/11am/src/recursion/Recursion2.java){: .label-button }--->
-: **Reading**{: .label .label-reading} Liang 18.3 (recursion continued).  Pay special attention to Figures 18.2 and 18.3 on
-  page 722; these are important to understand.
+: **Flex day and evals**
 
 Tue, Dec 10
-: **Recursion III**  
-  Recursive functions with arrays  
-    [Recursion with arrays handout](lectures/recursion/recursion-with-arrays.pdf)
-: [**Slides**](lectures/recursion/day3-recursion-with-arrays-slides.pdf){: .label-button } 
-<!---	[**10am code**](https://github.com/pkirlin/cs142-f22-inclass/blob/10am/src/recursion/Recursion3.java){: .label-button } 
-	[**11am code**](https://github.com/pkirlin/cs142-f22-inclass/blob/11am/src/recursion/Recursion3.java){: .label-button }--->
+: **Wrapup and review for final**  
 
 Thu, Dec 12
 : Reading Day
