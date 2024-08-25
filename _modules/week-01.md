@@ -22,36 +22,36 @@ Tue, Sep 10
 
 Thu, Sep 12
 : **Big Oh, cont.**
-[Reading](https://rhodes.box.com/s/wjf7eyei6v16rbluzc4ci9rckup7hvro) {: .label .label-reading} (Ch. 2.1: Big O running time)
+: [Reading](https://rhodes.box.com/s/wjf7eyei6v16rbluzc4ci9rckup7hvro){: .label .label-reading} (Ch. 2.1: Big O running time)
 
 Tue, Sep 17
 : **Recursive Big O and Linked Lists**
-[Reading](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380) {: .label .label-reading} (Ch. 2.6: Singly-linked lists) 
-[Project 2](projects/proj2), due Sep 26
+: [Reading](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380){: .label .label-reading} (Ch. 2.6: Singly-linked lists) 
+: [Project 2](projects/proj2), due Sep 26
 
 Thu, Sep 19
 : **Singly-linked lists**
 
 Tue, Sep 24
 : **Doubly-linked lists**
-[Reading](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5) {: .label .label-reading} (Ch. 2.7: Doubly-linked lists) 
-[Homework 2](homework/hw2/hw2.pdf), due Oct 1 on paper
+: [Reading](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5) {: .label .label-reading} (Ch. 2.7: Doubly-linked lists) 
+: [Homework 2](homework/hw2/hw2.pdf), due Oct 1 on paper
 
 Thu, Sep 26
 : **Stacks, queues, and quadratic sorting**  
- [Reading](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9) {: .label .label-reading} (Ch. 8.3-8.4: Quadratic sorting)
+: [Reading](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9) {: .label .label-reading} (Ch. 8.3-8.4: Quadratic sorting)
  
 Tue, Oct 1 
 : **Finish quadratic sorting**
-[Project 3](projects/proj3), due Oct 14  
+: [Project 3](projects/proj3), due Oct 14  
   
 Thu, Oct 3
 : **Exam I**{: .label .label-exam }
 
 Tue, Oct 8
 : **Set/Map ADTs**
-[Reading](https://rhodes.box.com/s/lr88jmz6ok8eyfc97jrilsmn5fmm93a8) {: .label .label-reading} (Ch. 7.1-7.2: Set/Map ADTs)
-[Project 4](projects/proj4), due Oct 25 
+: [Reading](https://rhodes.box.com/s/lr88jmz6ok8eyfc97jrilsmn5fmm93a8) {: .label .label-reading} (Ch. 7.1-7.2: Set/Map ADTs)
+: [Project 4](projects/proj4), due Oct 25 
 
 Thu, Oct 10
 : **Trees and traversals**  
@@ -74,7 +74,7 @@ Thu, Oct 24
 
 Tue, Oct 29
 : **Mergesort**
-[Reading](https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f) {: .label .label-reading} (Ch. 8.6: Mergesort)
+[Reading] (https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f){: .label .label-reading} (Ch. 8.6: Mergesort)
 [Homework 4](homework/hw4/hw4.pdf), due Nov 5 on paper
 [Project 5](projects/proj5), due Nov 14 
 
