@@ -1,6 +1,6 @@
 ---
 title: Coding Style
-nav_order: 100
+nav_order: 101
 ---
 
 # COMP 142: Coding Style
