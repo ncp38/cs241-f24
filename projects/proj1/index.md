@@ -11,7 +11,7 @@ parent: Projects
 1. TOC
 {:toc}
 
-**Reminder:** Everything in this project must be your own work.  If you include any code that was not invented by you, you must give a citation for it.
+**Reminder:** Everything in this project has to be your own work.  If you include any code that was not invented by you, you must give a citation for it.
 
 ## Getting Started
 
@@ -109,11 +109,11 @@ You will need to add a number of methods to the LargeInt class, as right now you
 of the number, and nothing else.
 
 Here are the methods you will need to add.  You can write them in (almost) any order, though some make more sense before others.  For each method 
-you **must** write a set of corresponding test cases in `LargeIntTester.java`.
+you **must write** a set of corresponding **test cases** in `LargeIntTester.java`.
 
 ### Constructors
 
-You must write a default constructor.  The signature for this constructor should be
+You **must write** a **default constructor**.  The signature for this constructor should be
 ```
 public LargeInt()
 ```
@@ -121,14 +121,14 @@ This constructor should initialize the LargeInt to represent the integer zero.  
 might be with a completely empty ArrayList or an ArrayList with a single `0` in it.
 <hr>
 
-You must write a constructor that initializes a LargeInt from a `String`.  The signature for this constructor is
+You **must write** a **constructor that initializes a LargeInt from a `String`**.  The signature for this constructor is
 ```
 public LargeInt(String str)
 ```
 This constructor may assume the `String` passed in contains a valid nonnegative integer, and the code should initialize the LargeInt to represent 
 the same integer.
 <hr>
-You must write a constructor that initializes a LargeInt from an `int`.  The signature for this constructor is
+You **must write** a **constructor that initializes a LargeInt from an `int`**.  The signature for this constructor is
 
 ```
 public LargeInt(int i)
@@ -138,7 +138,7 @@ integer.
 <hr>
 
 ### `toString()`
-You must write a `toString()` method.  The signature for this method should be
+You **must write** a **`toString()` method**.  The signature for this method should be
 
 ```
 public String toString()
@@ -148,19 +148,19 @@ in "reversed" order, you will of course need to iterate through the array backwa
 
 - **Testing:**
 
-  You must write a `testConstructors()` method in `LargeIntTester.java` that tests the three constructors and the `toString()` method.  You should 
+  You **must write** a **`testConstructors()`** method in `LargeIntTester.java` that tests the three constructors and the `toString()` method.  You should 
 write enough tests to convince yourself these constructors and methods work.  Do not delete the tests when you're done.  You can just comment out 
 the call to `testConstructors()`.
 
 ### Calculating the number of digits
-You must write a method to return the number of digits in an integer.    The signature for this method should be:
+You **must write** a **method to return the number of digits in an integer**.    The signature for this method should be:
 ```
 public int numDigits()
 ```
 - **Testing**: You may write a new test method or integrate these tests with the constructors/toString().
 
 ### Testing two integers for equality
-You must write a method to test if two integers are the same.  The method signature is 
+You **must write** a method to test if two integers are the same.  The method signature is 
 ```
 public boolean equals(Object other)
 ```
@@ -173,7 +173,7 @@ some more test cases.
 
 ### Adding two LargeInts
 **Note: This method requires writing pseudocode first!**
-You must write a method to add two integers together and return their sum as a new integer.  The method signature is
+You **must write** a **method to add two LargeInts together and return their sum as a new LargeInt**.  The method signature is
 ```
 public LargeInt add(LargeInt other)
 ```
@@ -193,33 +193,30 @@ Special considerations:
 - **Testing**: Fill in `testAdd()` and use a lot of examples to make sure this works! 
 
 ### Multiplying two LargeInts
-Write a method to multiply two LargeInts and return the product.  The method signature is
+You **must write** a **method to multiply two LargeInts and return the product as a new LargeInt**.  The method signature is
 ```
 public LargeInt multiply(LargeInt other)
 ```
 
 You do not have to simulate the elementary-school multiplication algorithm here (though you can if you want). Instead, just make a for loop that 
-does repeated addition. In other words, to multiply 9 by 5, make a new LargeInt, set it to zero, then add 9 to the new LargeInt five times. Yes this 
-is slow, but it works.
+does repeated addition. In other words, to multiply 9 by 5, make a new LargeInt, set it to zero, then add 9 to the new LargeInt five times. Yes this is slow, but it works.
 
 **Be careful with implementing multiplication; this can really slow down your code if you do it wrong:**
  
 Say I want to multiply 100 by 3. I can calculate this as 100 + 100 + 100, or 3 + 3 + 3 +...+ 3 (100 total additions). It is much faster to do the 
-first calculation (3 additions) rather than the second calculation (100 additions). Make sure your multiplication function is doing the faster 
-version.
+first calculation (3 additions) rather than the second calculation (100 additions). Make sure your multiplication function is doing the faster version.
 
 - **Testing**: Fill in `testMultiply()` and use a lot of examples to make sure this works! 
 
 ### Comparing LargeInts
-You will write a method to compare two LargeInts to see which one is bigger.  You will do this using a standard Java interface called `Comparable`.  
+You **must write** a **method to compare two LargeInts to see which one is bigger**.  You will do this using a standard Java interface called `Comparable`.  
 You can read the documentation for it here: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Comparable.html
 
 First, you should change the beginning of the LargeInt class to read:
 ```
 public class LargeInt implements Comparable<LargeInt>
 ```
-This tells Java we are implementing the `Comparable` interface, and our LargeInts should be comparable against other LargeInts.  (Usually the part 
-inside the angle brackets with `Comparable` will match the name of the class that implements the interface, though it doesn't have to match.)
+This tells Java we are implementing the `Comparable` interface, and our LargeInts should be comparable against other LargeInts.  (Usually the part inside the angle brackets with `Comparable` will match the name of the class that implements the interface, though it doesn't have to match.)
 
 To implement `Comparable`, add a method to the class:
 ```
@@ -228,7 +225,7 @@ public int compareTo(LargeInt other)
 This method should return a negative integer, zero, or a positive integer if this LargeInt is less than, equal to, or greater than the "`other`" 
 LargeInt.  The specific values of the negative or positive integers don't matter; you can use -1, 0, and +1 if you want.
 
-To implement this method, invent an algorithm for examining two integers to see which one is bigger, and return an appropriate integer.
+To implement this method, invent an algorithm for examining two integers to see which one is bigger and return an appropriate integer.
 
 - **Testing**: Test your code in the `testCompareTo()` method.  You can also use the `testSorting()` method that I wrote for you --- this method 
 illustrates what you can do with classes that implement `Comparable`!
@@ -244,11 +241,9 @@ fact(n) = 1 * 2 * ... * n, for n > 0
 This function grows very quickly, so quickly, in fact, that computing the factorial of any integer past about 25 quickly exceeds the capacity of a 
 regular `long` integer in Java.  You will use the LargeInt class to compute the factorials of all integers between 0 and 100.
 
-First, go to LargeIntDemo.java, and write a (static) function called `LargeInt factorial(LargeInt li)` that computes the factorial of the LargeInt 
-parameter `li` and returns it.  Then, in `main()`, write a loop to print out the factorials of 0 through 100, **along with the number of digits in 
-each factorial** (this last part is good for testing/debugging).
+First, go to LargeIntDemo.java, and **write** a **(static) function called `LargeInt factorial(LargeInt li)` that computes the factorial of the LargeInt parameter `li` and returns it**.  Then, in `main()`, write a loop to print out the factorials of 0 through 100, **along with the number of digits in each factorial** (this last part is good for testing/debugging).
 
-Hint: do not try to write this function recursively, because you will need a subtraction method for LargeInts and you don't have one! 
+Hint: I do not recommend trying to write this function recursively, because you will need a subtraction method for LargeInts and you don't have one! 
 
 ## Output
 Your output should match mine:
@@ -397,19 +392,15 @@ and has 158 digits.
 
 ## At the end of the project
 
--   As you are preparing to submit the project, please prepare a text file (`.txt`, pdf, or Word doc is fine) answering the following questions:
+-   As you are preparing to submit the project, **prepare a text file** (`.txt`, pdf, or Word doc is fine) answering the following questions:
     1.  What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
     2.  Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, but do include any help from other 
 sources, such as websites or people (including classmates and friends) and attribute them by name.
     3.  Describe any serious problems you encountered while writing the program.
     4.  Did you do any of the challenges (see below)? If so, explain what you did.
-    5.  List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you 
-enjoyed doing it.
--   Please also add a comment at the top of your program stating your name and a pledge that you have followed the honor code and collaboration 
-policy for this project. This can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**” You can find the 
-collaboration policy on the syllabus.
--   Remember, projects will be graded not only on correctness, but also appropriateness and efficiency of the algorithms you choose, and on coding 
-style.
+    5.  List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
+-   **Also add a comment** at the top of your program stating **your name** and **a pledge that you have followed the honor code and collaboration policy** for this project. This can be as simple as writing “*I have neither given nor received unauthorized aid on this program.*” You can find the collaboration policy on the syllabus.
+-   Remember, projects will be graded not only on correctness, but also appropriateness and efficiency of the algorithms you choose, and on coding style.
 
 ## Grading
 This project will be graded on the correctness of the output, efficiency of the algorithms, and on coding style, including comments.
@@ -424,5 +415,6 @@ raise your grade through “extra credit.”
 
 
 ## Submitting
-To submit, upload all of your `.java` files to canvas, along with your answers to the post-project questions, and your pseudocode/pictures/notes for 
-how you constructed your addition algorithm.  This doesn't have to be formal, and if you just have notes on a page, you can turn in photos.
+To submit, upload **all of your `.java` files** to canvas, along with your **answers to the post-project questions**, and **your pseudocode/pictures/notes** for how you constructed your addition algorithm.  This doesn't have to be formal, and if you just have notes on a page, you can turn in photos.
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for 'must', 'testing', and 'pseudocode'; important details related to the assignment are also highlighted for your convenience.
