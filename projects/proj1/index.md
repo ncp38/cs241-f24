@@ -415,6 +415,6 @@ raise your grade through “extra credit.”
 
 
 ## Submitting
-To submit, upload **all of your `.java` files** to canvas, along with your **answers to the post-project questions**, and **your pseudocode/pictures/notes** for how you constructed your addition algorithm.  This doesn't have to be formal, and if you just have notes on a page, you can turn in photos.
+To submit, upload **all of your `.java` files** to canvas, including **your name and honor pledge** and **all test methods and functionality**.  Make sure to also submit your **answers to the post-project questions** and **your pseudocode/pictures/notes** for how you constructed your addition algorithm.  This doesn't have to be formal, and if you just have notes on a page, you can turn in photos.
 
-Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for 'must', 'testing', and 'pseudocode'; important details related to the assignment are also highlighted for your convenience.
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**, **'testing'**, and **'pseudocode'**; important details related to the assignment are also highlighted for your convenience.
