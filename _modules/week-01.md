@@ -21,34 +21,34 @@ Tue, Sep 10
 : **ArrayLists and Big O**  
 : [**RList**](lectures/ArrayList/RList.java){: .label .label-code} The RList *interface*
 : [**RArrayList**](lectures/ArrayList/RArrayList.java){: .label .label-code} The RArrayList *implementation*
-
-Thu, Sep 12
-: **Big Oh, cont.**
 : [**Reading**](https://rhodes.box.com/s/wjf7eyei6v16rbluzc4ci9rckup7hvro){: .label .label-reading} Ch. 2.1: Big O running time
 
-Tue, Sep 17
+Thu, Sep 12
 : **Recursive Big O and Linked Lists**
 : [**Node**](lectures/LinkedList/Node.java){: .label .label-code} The Node class
 : [**RLinkedList**](lectures/LinkedList/RLinkedList.java){: .label .label-code} The RLinkedList *implementation*
 : [**Demo**](lectures/LinkedList/Demo.java){: .label .label-code} A demo with examples of how to use singly linked lists
 : [**Reading**](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380){: .label .label-reading} Ch. 2.6: Singly-linked lists 
+
+Tue, Sep 17
+: **Singly-linked lists**
 : [**Project 2**](projects/proj2){: .label .label-proj } due Sep. 26
 
 Thu, Sep 19
-: **Singly-linked lists**
-
-Tue, Sep 24
 : **Doubly-linked lists**
 : [**Reading**](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5){: .label .label-reading} Ch. 2.7: Doubly-linked lists 
 : [**Homework 2**](homework/hw2/hw2.pdf){: .label .label-hw } due Oct 1 on paper
 
-Thu, Sep 26
+Tue, Sep 24
 : **Stacks, queues, and quadratic sorting**  
 : [**Reading**](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9){: .label .label-reading} Ch. 8.3-8.4: Quadratic sorting
- 
-Tue, Oct 1 
+
+Thu, Sep 26
 : **Finish quadratic sorting**
 : [**Project 3**](projects/proj3){: .label .label-proj } due Oct 14  
+ 
+Tue, Oct 1 
+: **Exam Review**
   
 Thu, Oct 3
 : **Exam I**{: .label .label-exam }
