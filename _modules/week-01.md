@@ -19,8 +19,8 @@ Thu, Sep 5
 
 Tue, Sep 10
 : **ArrayLists and Big O**  
-: [**RList (in-class)**](lectures/ArrayList/RList.java){: .label .label-code} The RList *interface*
-: [**RList (in-class)**](lectures/ArrayList/RArrayList.java){: .label .label-code} The RArrayList *implementation*
+: [**RList**](lectures/ArrayList/RList.java){: .label .label-code} The RList *interface*
+: [**RArrayList**](lectures/ArrayList/RArrayList.java){: .label .label-code} The RArrayList *implementation*
 
 Thu, Sep 12
 : **Big Oh, cont.**
@@ -33,6 +33,9 @@ Tue, Sep 17
 
 Thu, Sep 19
 : **Singly-linked lists**
+: [**Node**](lectures/LinkedList/Node.java){: .label .label-code} The Node class
+: [**RLinkedList**](lectures/LinkedList/RLinkedList.java){: .label .label-code} The RLinkedList *implementation*
+: [**Demo**](lectures/LinkedList/Demo.java){: .label .label-code} A demo with examples of how to use singly linked lists
 
 Tue, Sep 24
 : **Doubly-linked lists**
