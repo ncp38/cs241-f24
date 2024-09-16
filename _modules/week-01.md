@@ -19,6 +19,8 @@ Thu, Sep 5
 
 Tue, Sep 10
 : **ArrayLists and Big O**  
+: [**RList (in-class)**](lectures/ArrayList/RList.java){: .label .label-code} The RList *interface*
+: [**RList (in-class)**](lectures/ArrayList/RArrayList.java){: .label .label-code} The RArrayList *implementation*
 
 Thu, Sep 12
 : **Big Oh, cont.**
