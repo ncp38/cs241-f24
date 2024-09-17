@@ -27,7 +27,7 @@ Thu, Sep 12
 : **Recursive Big O and Linked Lists**
 : [**Node**](lectures/LinkedList/Node.java){: .label .label-code} The Node class
 : [**RLinkedList**](lectures/LinkedList/RLinkedList.java){: .label .label-code} The RLinkedList *implementation*
-: [**Demo**](lectures/LinkedList/Demo.java){: .label .label-code} A demo with examples of how to use singly linked lists
+: [**Demo**](lectures/LinkedList/RLLDemo.java){: .label .label-code} A demo with examples of how to use singly linked lists
 : [**Reading**](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380){: .label .label-reading} Ch. 2.6: Singly-linked lists 
 
 Tue, Sep 17
