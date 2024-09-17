@@ -117,7 +117,7 @@ Notice the beginning of the RotatingArrayList class is now:
 
 `public class RotatingArrayList<E>` 
 
-What this  `<E>`  represents is that when we use  `RotatingArrayList`  in practice, we must fill in that  `E`  with a Java class name. You will probably recognize this idea 
+What this  `<E>`  represents is that when we use  `RotatingArrayList`  in practice, we have to fill in that  `E`  with a Java class name. You will probably recognize this idea 
 from using normal Java  `ArrayList`s: you write  `ArrayList<Integer> numbers = new ArrayList<Integer>()`  to make a new list of  `Integer`s, and  `ArrayList<Double> numbers = new ArrayList<Double>()`  to make a new list of  `Double`s, etc. Our  `RotatingArrayList`  class, in order to allow our lists to hold objects of any type, will be 
 parameterized similarly.
 
@@ -139,8 +139,7 @@ You will need to fill in a number of methods in the RotatingArrayList class.  Al
 Additionally, a working default constructor and expand have already been added.
 
 ### Methods
-Here are the methods you must write, along with their running times that you must
-stick to.
+Here are the **methods** you must write, along with their **running times that you must stick to**.
 
 - **toString()** - $O(n)$: This will be very similar to the RArrayList toString(), except it must take offset into account.
 - **size()/get()/set()** - $O(1)$: Each of these will be very similar to the RArrayList versions, except they must take offset into account (except size()).
@@ -161,7 +160,7 @@ the data[] array, and the current values of size and offset.
 As you finish each method or group of methods, you should test them thoroughly in RotatingArrayListTester.  I suggest writing individual testing methods like in Project 1.
 
 ## Part B: Writing CardGame
-After you are 100% sure the RotatingArrayList works, you will write a simple game to demonstrate its use.  The game works like this.  Imagine you are dealt a list of cards, 
+After you are 100% sure the RotatingArrayList works, you will **write a simple game** to demonstrate its use.  The game works like this.  Imagine you are dealt a list of cards, 
 in shuffled order, labeled with the numbers 1 to $n$ (for some positive number $n$, I'll use 5 as an example here):
 
 ```
@@ -190,7 +189,7 @@ and add the 1 back at the front.
 Notice how the list is now almost sorted! We just have to get the 5 and 4 at the end to switch, which is not hard.
 
 ### Parts of the game
-The game should work by:
+The game must:
 - Asking the user how many cards they want to play with (any positive integer $n>1$).
 - Deal them that many cards in a random order.
 	- You should do this by creating a RotatingArrayList containing the numbers 1 to $n$ in sorted order, and then shuffling them using the [Fisher-Yates 
@@ -237,5 +236,6 @@ This project will be graded on the correctness of the output, efficiency of the 
 to it.
 
 ## Submitting
+To submit, upload **all of your `.java` files** to canvas, including **your name and honor pledge** and **all test methods and functionality**.  Make sure to also submit your **answers to the post-project questions** and **your pseudocode/pictures/notes** for how you constructed your addition algorithm.  This doesn't have to be formal, and if you just have notes on a page, you can turn in photos.
 
-To submit, upload all of your  `.java`  files to canvas, along with your answers to the post-project questions, and your pseudocode/pictures/notes for how you constructed the algorithms. This doesn’t have to be formal, and if you just have notes on a page, you can turn in photos.
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
