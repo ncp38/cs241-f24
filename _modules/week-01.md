@@ -31,16 +31,16 @@ Thu, Sep 12
 : [**Reading**](https://rhodes.box.com/s/e9edx6ebgw4ipm61cl907trljwahk380){: .label .label-reading} Ch. 2.6: Singly-linked lists 
 
 Tue, Sep 17
-: **Singly-linked lists**
+: **Singly-linked and doubly-linked lists**
 : [**Project 2**](projects/proj2){: .label .label-proj } due Sep. 26
 
 Thu, Sep 19
-: **Doubly-linked lists**
+: **Stacks and Queues**
 : [**Reading**](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5){: .label .label-reading} Ch. 2.7: Doubly-linked lists 
 : [**Homework 2**](homework/hw2/hw2.pdf){: .label .label-hw } due Oct 1
 
 Tue, Sep 24
-: **Stacks, queues, and quadratic sorting**  
+: **Quadratic sorting**  
 : [**Exam Review**](lectures/examReview/Midterm1Review.pdf){: .label .label-lecture} Some example problems to help you study
 : [**Reading**](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9){: .label .label-reading} Ch. 8.3-8.4: Quadratic sorting
 
