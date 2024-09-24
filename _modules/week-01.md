@@ -41,6 +41,7 @@ Thu, Sep 19
 
 Tue, Sep 24
 : **Stacks, queues, and quadratic sorting**  
+: [**Exam Review**](lectures/examReview/Midterm1Review.pdf){: .label .label-lecture} Some example problems to help you study
 : [**Reading**](https://rhodes.box.com/s/ygehchmn8m7c5hzaneowzmhb6nqe2uj9){: .label .label-reading} Ch. 8.3-8.4: Quadratic sorting
 
 Thu, Sep 26
