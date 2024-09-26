@@ -36,6 +36,8 @@ Tue, Sep 17
 
 Thu, Sep 19
 : **Stacks and Queues**
+: [**RStack**](lectures/LinkedList/RLinkedList.java){: .label .label-code} The RStack *implementation*
+: [**RIntQueue**](lectures/LinkedList/RLinkedList.java){: .label .label-code} The RIntQueue *implementation*
 : [**Reading**](https://rhodes.box.com/s/0hnefr3dgk936tldg9wjh9nxwr11r6a5){: .label .label-reading} Ch. 2.7: Doubly-linked lists 
 : [**Homework 2**](homework/hw2/hw2.pdf){: .label .label-hw } due Oct 1
 
