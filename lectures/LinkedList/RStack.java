@@ -73,7 +73,7 @@ class RStack<E> {
 
     private void resize()
     {
-        int newSize = arr.length;
+        int newSize = 2 * arr.length;
 
         Object[] newArray = new Object[newSize];
 

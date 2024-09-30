@@ -52,6 +52,7 @@ Thu, Sep 26
  
 Tue, Oct 1 
 : **Exam Review**
+: [**Exam Review Solutions**](lectures/examReview/Midterm1ReviewSolutions.pdf){: .label .label-lecture} Solutions to the example problems
   
 Thu, Oct 3
 : **Exam I**{: .label .label-exam }
