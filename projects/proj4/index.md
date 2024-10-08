@@ -39,7 +39,7 @@ from text, usually in the sense of figuring out whether a piece of text is expre
 this project, you will write a simple sentiment analysis program to try to figure out what sort of opinion is being expressed in a collection of movie 
 reviews. [More about sentiment analysis.](https://en.wikipedia.org/wiki/Sentiment_analysis)
 
-The sentiment analysis algorithm for this project is very simple. You are given a collection of movie reviews in text format. You will use a maps 
+The sentiment analysis algorithm for this project is very simple. You are given a collection of movie reviews in text format. You will use maps 
 (explained below) to keep track of how often certain words appear in the reviews. That is, your map will store an association between words (the keys, 
 as Strings), and the frequencies with which they appear in the movie reviews (the values, as integers).
 
@@ -70,7 +70,7 @@ positive).
 This project is all about using the Map and Set abstract data types.  In particular, you will be implementing your own Map type using a binary search 
 tree, but you will use a built-in Java type for the Set.
 
-Here we describe how to use these are used:
+Here we describe how these are used:
 
 - **BSTMap**: You will be writing this class yourself, but here's how it's intended to be used, which mirrors the way built-in Java Maps are used.
   - **Create** a new map: `BSTMap<KeyType, ValueType> mapVariable = new BSTMap<KeyType, ValueType>();` This creates a new map that associates keys of 
@@ -100,7 +100,7 @@ you can think of any Set as just a Map where the value field is ignored entirely
 
 ## Part A
 
-Part A is writing the BSTMap class, defined in `BSTMap.java`.  This class represents a Map that stores an association between a key (type `K`) and a 
+In Part A, you **must write the BSTMap class**, defined in `BSTMap.java`.  This class represents a Map that stores an association between a key (type `K`) and a 
 value (`type V`).  Note that this Map class is general enough to store any kind of association, and can be used beyond this specific project.
 
 **Important**: Remember that in BSTs, all the searching/inserting/removing happens based on comparisons done with the **keys**, and the values are 
@@ -126,7 +126,7 @@ be compared with `.equals()`, rather than `==`).
 The BSTMap class defines a Node class towards the end of the file; it holds a key of type `K` and a value of type `V`, along with pointers to the left 
 and right child nodes of the BST.
 
-You must implement the following functions, which you should feel free to base on the BST code given in class.
+You **must implement the following functions**, which you should feel free to base on the BST code given in class.
 
 - `put`: Put a new key-value pair into the BST.  This function must use the recursive algorithm from class.  Note that there is a `public` version of 
 this function (that a user will call), and a `private` version that will actually do the work.  Two versions are needed because the recursive 
@@ -144,8 +144,7 @@ false.  Hint: you will need to add `private` helper functions.
 - `remove`: This is the equivalent of the deletion algorithm discussed in class.  This function does not have to be recursive.  Please use the code 
 given in class to implement this.
 
-- `size`: This function returns the number of key-value pairs in the tree.  This function should be implemented recursively.  (Yes, this function 
-could be implemented by adding a `size` field to the class, but I want you to get practice with writing recursive functions.)
+- `size`: This function returns the number of key-value pairs in the tree.  
 
 - `height`: This function returns the height of the tree (see the BST homework for more information).
 
@@ -172,12 +171,11 @@ To get the overall sentiment for a review, each word's average sentiment is itse
 
 ### How the program works
 
-You will notice large chunks of `main()` are already written for you.  You must fill in the missing pieces.  Here are some important variables you 
+You will notice large chunks of `main()` are already written for you.  You **must** fill in the missing pieces.  Here are some important variables you 
 will use:
 
-- There is a boolean constant defined at the top of main called `PRINT_TREES`.  This boolean constant is used to print extra debugging information.  
-Keep it turned on as you write the program, as it will help you debug.  You can turn it off as you start working with more movie reviews, as it the 
-output will become too long.
+- There is a boolean constant defined at the top of main called `PRINT_TREES`.  This boolean constant is used to print extra debugging information.  You can keep it turned on as you write the program, as it will help you debug.  You can turn it off as you start working with more movie reviews, as the 
+output can start to become too long.
 - `BSTMap<String, Integer> wordFreqs`: This map stores the frequency of each word seen in all the movie reviews.  Whenever you see a word in a review, 
 you will call `put` on this map and increment the frequency by 1.
 - `BSTMap<String, Integer> wordTotalScores`: This map stores, for every word, the (running) total of the ratings (scores) for all the movies 
@@ -187,7 +185,7 @@ files and the new ones typed in at the keyboard.)
 
 Steps for writing the program:
 
-- You should write `processFile` first.  This function takes the name of a file of movie reviews, the map of word frequencies, and the map of each 
+- You **must** write `processFile` first.  This function takes the name of a file of movie reviews, the map of word frequencies, and the map of each 
 word's total score.  This function opens the file of movie reviews, reads them in, and updates the two maps so that at the end, we have the frequency 
 of every word and its total score.
 
@@ -205,16 +203,16 @@ movie's rating.
 
   There is no special handling if a word appears multiple times in the same review.  You will update each map multiple times, and that's OK.
 
-- Next, write `printFreqsAndScores`.  This function simply prints a table of all the words in the two maps, along with their frequencies and total 
+- Next, you **must** write `printFreqsAndScores`.  This function simply prints a table of all the words in the two maps, along with their frequencies and total 
 scores.  The order of the words is based on an inorder traversal of the BST, which you can obtain by calling `inorderKeys()` on either map.  This will 
 give you a list of keys in the appropriate order, and you can then loop over them and call `get()` on each map.
 
-- Next, write `removeStopWords`.  This function opens the "stopwords.txt" file and adds all the words found inside into the `stopwords` map.  At the 
+- Next, you **must** write `removeStopWords`.  This function opens the "stopwords.txt" file and adds all the words found inside into the `stopwords` map.  At the 
 same time, it removes those words from the two BSTMaps.
 
-  Fill in the code; you are literally just adding 3 lines inside the loop where it says to.
+  Fill in the code; all you need to do is add 3 lines inside the loop where it says to.
 
-- Lastly, fill in the code in `main()` that processes new movie reviews.  Your code should loop over the `words[]` array and calculate the average 
+- Lastly, you **must** fill in the code in `main()` that processes new movie reviews.  Your code should loop over the `words[]` array and calculate the average 
 sentiment for each word, ignoring any stop words.  Remember, the "average sentiment for a word" means the average movie rating for every movie review 
 that contains that word.  You have two maps that will give you the exact pieces of information you need to calculate this.  
 
@@ -270,7 +268,11 @@ words, do not use an $O(n^2)$ algorithm where an $O(n)$ will do.
 
 ## Submitting
 
-Upload 3 files to Canvas: BSTMap.java, BSTTester.java, and SentimentAnalysis.java.
+Upload 3 files to Canvas: .
+
+To submit, upload these three files: **BSTMap.java**, **BSTTester.java**, and **SentimentAnalysis.java** to canvas, including **your name and honor pledge**.  Make sure to also submit your **answers to the post-project questions**
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
 
 ## A full example
 
