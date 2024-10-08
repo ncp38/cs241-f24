@@ -58,17 +58,17 @@ Thu, Oct 3
 : **Exam I**{: .label .label-exam }
 
 Tue, Oct 8
-: **Set/Map ADTs**
-: [**Reading**](https://rhodes.box.com/s/lr88jmz6ok8eyfc97jrilsmn5fmm93a8){: .label .label-reading} Ch. 7.1-7.2: Set/Map ADTs
-: [**Project 4**](projects/proj4){: .label .label-proj } due Oct 25 
-
-Thu, Oct 10
 : **Trees and traversals**  
 : [**Reading**](https://rhodes.box.com/s/ug21aeha2rbrbd4ovybuty3k5anqe6gl){: .label .label-reading} Ch. 6.1-6.2: General trees
 
-Tue, Oct 15
+Thu, Oct 10
 : **Binary Search Trees**
 : [**Reading**](https://rhodes.box.com/s/3uvthh6s7uoahmwyu1vi6wlo2at1e55g){: .label .label-reading} Ch. 6.5: Binary search trees
+: [**Project 4**](projects/proj4){: .label .label-proj } due Oct 25 
+
+Tue, Oct 15
+: **Set/Map ADTs**
+: [**Reading**](https://rhodes.box.com/s/lr88jmz6ok8eyfc97jrilsmn5fmm93a8){: .label .label-reading} Ch. 7.1-7.2: Set/Map ADTs
 
 Thu, Oct 17
 : **Hashing**  
