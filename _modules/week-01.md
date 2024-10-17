@@ -73,18 +73,18 @@ Tue, Oct 15
 Thu, Oct 17
 : **Hashing**  
 : [**Reading**](https://rhodes.box.com/s/a3jk5a95msi8w5npdwoqsu05jh313uf8){: .label .label-reading} Ch. 7.3: Hashing
-: [**Homework 3**](homework/hw3/hw3.pdf){: .label .label-hw } due Oct 29
 
 Tue, Oct 22
 : No class, Fall break
 
 Thu, Oct 24
 : **Hashing**   
+: [**Homework 3**](homework/hw3/hw3.pdf){: .label .label-hw } due Oct 31
 
 Tue, Oct 29
 : **Mergesort**
 : [**Reading**](https://rhodes.box.com/s/77acwt2ii175jp6lkyfvzzdppkdr0z1f){: .label .label-reading} Ch. 8.6: Mergesort
-: [**Homework 4**](homework/hw4/hw4.pdf){: .label .label-hw } due Nov 5
+<!---: [**Homework 4**](homework/hw4/hw4.pdf){: .label .label-hw } due Nov 5--->
 : [**Project 5**](projects/proj5){: .label .label-proj } due Nov 14 
 
 Thu, Oct 31
