@@ -68,6 +68,8 @@ Thu, Oct 10
 
 Tue, Oct 15
 : **Binary Search Trees**
+: [**RBinarySearchTree**](lectures/trees/RBinarySearchTree.java){: .label .label-code} The RBinarySearchTree *implementation*
+: [**TreeNode**](lectures/trees/TreeNode.java){: .label .label-code} The TreeNode *implementation*
 : [**Reading**](https://rhodes.box.com/s/3uvthh6s7uoahmwyu1vi6wlo2at1e55g){: .label .label-reading} Ch. 6.5: Binary search trees
 
 Thu, Oct 17
