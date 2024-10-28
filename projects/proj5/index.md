@@ -62,7 +62,7 @@ A Comparator is a Java class that implements the [Comparator](https://docs.oracl
 
 ### Writing Part A
 
-- In `Quicksort.java`, fill in the `partition()` function.  It mirrors the `partition()` function from the quicksort handout discussed in class.  The only differences are that it uses ArrayLists instead of plain arrays, and it uses a `Comparator` object passed in as an argument, so every time the code from class compares items from the array with `<`, `>`, or `==`, you should use the `compare` function on the comparator instead:
+- In `Quicksort.java`, fill in the `partition()` function.  It mirrors the `partition()` function from quicksort discussed in class.  The only differences are that it uses ArrayLists instead of plain arrays, and it uses a `Comparator` object passed in as an argument, so every time the code from class compares items from the array with `<`, `>`, or `==`, you should use the `compare` function on the comparator instead:
 
 - ```
   REGULAR WAY         WITH COMPARATOR
@@ -90,7 +90,7 @@ In this part, you will implement a Map based on a hash table (in the last projec
   - This is an ArrayList that contains linked lists.  Each linked list contains a sequence of KVPairs (key-value pairs).  The KVPair class is defined at the end of the file.
   - This looks like a complicated definition, but if you read it from left to right, you should be able to parse out the meaning.  KVPairs (of keys and values) inside of a LinkedList, inside of an ArrayList.
 - Java objects always have a `hashCode` function built in.  Often when declaring your own objects, you override this function.  What this means is that you don't have to worry about writing hash code functions inside this class.
-- Take a look at the constructor for the class.  Notice how it takes an `initialSize` parameter.  This allows the user to set the size of the hashtable.  This is very unusual in practice --- normally the hash table size is controlled by the programmer.  However, to allow us to play with the size of the table, we will allow it to be controlled by this parameter.
+- Take a look at the constructor for the class.  Notice how it takes an `initialSize` parameter.  This allows the user to set the size of the hashtable.  This is very unusual in practice --- normally the hash table size is controlled by the backend (ie, the implementation, not the interface).  However, to allow us to play with the size of the table, we will allow it to be controlled by this parameter.
 
 ### Writing Part B
 
