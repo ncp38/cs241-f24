@@ -78,7 +78,7 @@ A Comparator is a Java class that implements the [Comparator](https://docs.oracl
 
 - When you think you're done with `partition()`, try running `QuicksortTester`.  You should be able to sort numbers and individual letters forwards and backwards now.  You will also notice the last case uses a Comparator at the end of the file called `IgnoreCaseComparator`.  Take note of this comparator, as you will be writing your own later.
 
-✅✅✅ [Compare against sample output](sort-output.txt).
+✅✅✅ [Comparison against sample output](sort-output.txt).
 
 ## Part B: HashtableMap
 
@@ -88,7 +88,7 @@ In this part, you will implement a Map based on a hash table (in the last projec
 
 - A HashtableMap implements a map based on a hashtable.  The hash table uses *chaining*.  The table is based on this variable: `ArrayList<LinkedList<KVPair<K, V>>> table`.
   - This is an ArrayList that contains linked lists.  Each linked list contains a sequence of KVPairs (key-value pairs).  The KVPair class is defined at the end of the file.
-  - This looks like a complicated definition, but if you read it from left to right, you should be able to parse out the meaning.  KVPairs (of keys and values) inside of a LinkedList, inside of an ArrayList.
+  - This looks like a complicated definition, but if you read it from right to left, you should be able to parse out the meaning.  KVPairs (of keys and values) inside of a LinkedList, inside of an ArrayList.
 - Java objects always have a `hashCode` function built in.  Often when declaring your own objects, you override this function.  What this means is that you don't have to worry about writing hash code functions inside this class.
 - Take a look at the constructor for the class.  Notice how it takes an `initialSize` parameter.  This allows the user to set the size of the hashtable.  This is very unusual in practice --- normally the hash table size is controlled by the backend (ie, the implementation, not the interface).  However, to allow us to play with the size of the table, we will allow it to be controlled by this parameter.
 
@@ -104,11 +104,11 @@ I suggest the following steps to write this class.
 - Write `keySet()`.  Follow the instructions in the code.  Test in `HashtableMapTester`.
 - Write `printTable()`.  This is the hardest function to get right, though it's not particularly complicated in how it works.  Follow the instructions in the code.  Test in `HashtableMapTester`.
 
-✅✅✅ At this point your HashtableMapTester output should match mine.  [Compare it](maptester-output.txt).
+✅✅✅ Comparison: At this point your HashtableMapTester output should match mine.  [Compare it](maptester-output.txt).
 
 ## Part C: Reading the file
 
-Next, you will write code in `AutocorrectDemo.java` to open a file with a large amount of text and tally up how often each word occurs.  You have two sample files: `small.txt`, which is a small demo file, and `nyt.txt`, which is a large amount of text taken from *New York Times* articles.
+Next, you will write code in `AutocorrectDemo.java` to open a file with a large amount of text and count how often each word occurs.  You have two sample files: `small.txt`, which is a small demo file, and `nyt.txt`, which is a large amount of text taken from *New York Times* articles.
 
 - Fill in the code in `processFile()` to read in the text and keep a count of each word frequency.  The way this code works is almost identical to how you processed the text in the movie reviews program (except there are no scores).  Loop over the words in each line, and keep track of the number of times you see each word in `wordFreqs`.
 - When done, you should be able to run `main()` in AutocorrectDemo.  Compare your output on `small.txt` and `nyt.txt` against mine. It should match up to the `printTable` step.  Note that in order to match, you should use a table size of 5 with `small.txt` and a table size of 23456 with `nyt.txt`. 
@@ -124,7 +124,7 @@ In part D, you will write code for both of these tasks.
 
 ----
 
-✅✅✅ Sample output for [small.txt](small-output.txt), [nyt.txt](nyt-output.txt).
+✅✅✅ Sample output/comparison for [small.txt](small-output.txt), [nyt.txt](nyt-output.txt).
 
 - Begin in `getBestAutocomplete` in Autocorrector.java.  Write this function, which is designed to take a string and look for the most common word in the wordFreq map that has the string as a prefix (this is the "autocomplete" part of the autocorrector: it's going to predict what word you've typed the first few letters of).
 
@@ -140,11 +140,11 @@ In part D, you will write code for both of these tasks.
   - If the autocomplete string is not null (it might be null), then add it to the ArrayList as well.
   - return the ArrayList as the return value of the function.
 - You're almost done! At this point you can run the tester code on both small.txt and nyt.txt, and the *only* difference should be the order of the words that come out of `getBestSuggestions`.  If you want to have some fun, try testing out the graphical user interface by uncommenting the two lines at the end of `main()`. 
-- Last step: We need to **sort** the autocomplete/autocorrect suggestions by word frequency.  To do this, we will write a `Comparator<String>` (I promised we'd come back to those!).  Head back to `Autocorrecter.java`.  At the very end is a `Comparator` for Strings.  You must fill in the `compare` function to do a two-level comparison between the Strings s1 and s2, which will be words from your `wordFreq` map.  The basic idea is to compare s1 and s2 by their corresponding values in the map (which are, of course, how often each word appeared in the original text file.)  s1 should come "before" s2 if s1 is a more popular word (has a higher frequency) than s2.
+- Last step: We need to **sort** the autocomplete/autocorrect suggestions by word frequency.  To do this, we will write a `Comparator<String>` (I promised we'd come back to those!).  Head back to `Autocorrecter.java`.  At the very end is a `Comparator` for Strings.  You must fill in the `compare` function to compare two Strings, s1 and s2, which will be words from your `wordFreq` map.  The basic idea is to compare s1 and s2 by their corresponding values in the map (which are, of course, how often each word appeared in the original text file.)  s1 should come "before" s2 if s1 is a more popular word (has a higher frequency) than s2.
   - Here's how to do it:
   - Get the frequency of each word (s1 and s2).
-  - If the frequencies are different, return either -1 or +1 depending on which frequency is higher (think about which goes with which).
-  - If the frequencies are the same, then we will compare the strings based on alphabetical order, whicih you can do by calling `s1.compareTo(s2)` and returning the result.
+  - If the frequencies are different, return either -1 or +1 depending on which frequency is higher.
+  - If the frequencies are the same, then we will compare the strings based on alphabetical order, which you can do by calling `s1.compareTo(s2)` and returning the result.
   
 
 - After you write the `Comparator`, you must call your quicksort function from earlier. 
@@ -165,7 +165,7 @@ Feel free to play around with the GUI.
 
 ## Testing your code
 
-Look for the green check marks above, and make sure your output matches mine for those tests.
+Look for the green check marks above or search for **comparison**, and make sure your output matches mine for those tests.
 
 ## At the end of the project
 
@@ -183,14 +183,14 @@ whether you enjoyed doing it.
 collaboration policy for this project. This 
 can be as simple as writing “**I have neither given nor received unauthorized aid on this program.**” You can find the collaboration 
 policy on the syllabus.
--   Remember, projects will be graded not only on correctness, but also appropriateness and efficiency of the algorithms you choose, 
+-   Remember, projects will be graded **not only on correctness**, but **also appropriateness and efficiency** of the algorithms you choose, 
 and on coding style.
 
 ## Submitting your code
 
-**Please, please, please** before submitting, make sure that in `AutocorrectDemo.java`, the call to `testAutoCorrect` is uncommented (because I will run this function to test your code).  It would also be helpful if you commented out the two calls to the window code that opens the GUI (since I will not use that to test your code).
+Please, before submitting, make sure that in `AutocorrectDemo.java`, the call to `testAutoCorrect` is uncommented (because I will run this function to test your code).  It would also be helpful if you commented out the two calls to the window code that opens the GUI (since I will not use that to test your code).
 
-Upload *all* the Java files to Canvas; there are 7 in total:
+Upload *all* the Java files to Canvas; there are **7 in total**:
 
 - AutocorrectDemo.java 
 - AutocorrectFrame.java (you will not have changed this file)
@@ -199,6 +199,8 @@ Upload *all* the Java files to Canvas; there are 7 in total:
 - HashtableMapTester.java (you may or may not have changed this file)
 - Quicksort.java 
 - QuicksortTester.java (you may or may not have changed this file)
+
+Make sure to also submit your **answers to the post-project questions!**
 
 ## Hints and tips
 
