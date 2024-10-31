@@ -91,7 +91,8 @@ Tue, Oct 29
 
 Thu, Oct 31
 : **Quicksort**
-: [**Reading**](https://rhodes.box.com/s/bhl0chfajgxhoii22nnqkkgs632j4se7){: .label .label-reading} Ch. 8.9: Quicksort   
+: [**Reading**](https://rhodes.box.com/s/bhl0chfajgxhoii22nnqkkgs632j4se7){: .label .label-reading} Ch. 8.9: Quicksort  
+: [**Exam Review**](lectures/examReview/Midterm2Review.pdf){: .label .label-lecture} Some example problems to help you study 
 : Happy Halloween!
 
 Tue, Nov 5
