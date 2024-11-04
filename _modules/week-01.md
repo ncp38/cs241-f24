@@ -68,6 +68,7 @@ Thu, Oct 10
 
 Tue, Oct 15
 : **Binary Search Trees**
+: [**Visual Example**](https://www.cs.usfca.edu/~galles/visualization/BST.html){: .label .label-lecture} 
 : [**RBinarySearchTree**](lectures/trees/RBinarySearchTree.java){: .label .label-code} The RBinarySearchTree *implementation*
 : [**TreeNode**](lectures/trees/TreeNode.java){: .label .label-code} The TreeNode *implementation*
 : [**Reading**](https://rhodes.box.com/s/3uvthh6s7uoahmwyu1vi6wlo2at1e55g){: .label .label-reading} Ch. 6.5: Binary search trees
@@ -100,6 +101,7 @@ Tue, Nov 5
 : [**Quicksort**](lectures/nlognSorting/quicksort.java){: .label .label-code} 
 : [**Mergesort**](lectures/nlognSorting/mergesort.java){: .label .label-code} 
 : [**Demo Code**](lectures/nlognSorting/sortingTest.java){: .label .label-code} 
+: [**Exam II Review Solutions**](lectures/examReview/Midterm2ReviewSolutions.pdf){: .label .label-lecture} Solutions to the example problems
 
 Thu, Nov 7
 : **Exam II**{: .label .label-exam } 
