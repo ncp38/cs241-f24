@@ -97,8 +97,9 @@ Thu, Oct 31
 
 Tue, Nov 5
 : **Review/catchup**  
-: [**Quicksort Demo Code**](lectures/nlognSorting/quicksort.java){: .label .label-code} The source code for the quicksort demo
-: [**Mergesort Demo Code**](lectures/nlognSorting/mergesort.java){: .label .label-code} The source code for the mergesort demo
+: [**Quicksort**](lectures/nlognSorting/quicksort.java){: .label .label-code} 
+: [**Mergesort**](lectures/nlognSorting/mergesort.java){: .label .label-code} 
+: [**Demo Code**](lectures/nlognSorting/sortingTest.java){: .label .label-code} 
 
 Thu, Nov 7
 : **Exam II**{: .label .label-exam } 
