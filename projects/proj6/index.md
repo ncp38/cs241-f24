@@ -34,7 +34,7 @@ it.
 "nest" the `src` folders inside each other!
 
 
-In this project, we will put all of our pieces from this semester together.  Well, at least some of them.  You will write a program implementing a classic algorithm, picking the best data structures to use in the code.  You will also get experience using some built-in Java data structures we haven't used yet.
+In this project, we will put the pieces together from across this semester.  You will write a program implementing a classic algorithm, picking the best data structures to use in the code.  You will also get experience using some built-in Java data structures we haven't used yet.
 
 ### Primer on the Java Collection Framework
 
@@ -57,7 +57,7 @@ Each file describes a graph.  Take a look at the examples given in the `src` fol
 
 **Completing Part A**
 
-To write Part A, fill in the `processFile` function.  Follow the model we've used in previous projects.  
+To write Part A, you must fill in the `processFile` function.  Follow the model we've used in previous projects.  
 
 A few hints, tips, and guidelines:
 
@@ -77,7 +77,7 @@ When your output from the list of vertices and list of edges for each graph matc
 
 ### Part B: Dijkstra's algorithm
 
-In this part, you will implement Dijkstra's algorithm, which we discussed in class.  [Here's the pseudocode](https://rhodes.app.box.com/s/k08g32b1stbec2mn93r7l0xoho3zbcmt).
+In this part, you must implement Dijkstra's algorithm, which we discussed in class.  [Here's the pseudocode](https://rhodes.app.box.com/s/k08g32b1stbec2mn93r7l0xoho3zbcmt).
 
 **Completing Part B**
 
@@ -108,7 +108,7 @@ When your output matches mine (see the next section), you're done!
 
 ### ✅✅✅ Sample output
 
-I will be checking your output against the "without debugging" output.  Everything should match, with the exception of:
+I will be checking your output against the "without debugging" output.  **Everything should match**, with the exception of:
 
 - The order of the vertices and edges listed at the beginning (when you just print the contents of the graph).
 - The order in which the *neighboring* vertices `v` of each vertex `u` are considered during each step of Dijkstra's algorithm (e.g., if vertex A is connected to vertices B and C, your algorithm may consider B before C, or C before B).  To be clear, the order of the `u` vertices (being removed from the priority queue) must match.  The order of the `v` vertices *within* each iteration of the main loop does not matter.
@@ -144,3 +144,6 @@ and on coding style.
 
 Upload `DijkstrasAlgorithm.java`.  No other files are needed.
 
+To submit, upload all your Java files to canvas, including **your name and honor pledge** in a comment at the top of each file.  Make sure to also submit your **answers to the post-project questions** as well.
+
+Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.

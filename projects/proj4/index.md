@@ -270,7 +270,7 @@ words, do not use an $O(n^2)$ algorithm where an $O(n)$ will do.
 
 Upload 3 files to Canvas: .
 
-To submit, upload these three files: **BSTMap.java**, **BSTTester.java**, and **SentimentAnalysis.java** to canvas, including **your name and honor pledge**.  Make sure to also submit your **answers to the post-project questions**
+To submit, upload these three files: **BSTMap.java**, **BSTTester.java**, and **SentimentAnalysis.java** to canvas, including **your name and honor pledge**.  Make sure to also submit your **answers to the post-project questions** as well.
 
 Before submitting, make sure that you've included all the requirements for this project!  You can double-check by searching this page (ctrl+f or command+f) for **'must'**; important details related to the assignment are also highlighted for your convenience.
 
