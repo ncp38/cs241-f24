@@ -125,6 +125,7 @@ Thu, Nov 21
 Tue, Nov 26
 : **Priority queues and heaps**  
 : [**Priority Queue**](lectures/priorityQueues/PriQueue.java){: .label .label-code} 
+: [**Heap Info Sheet and Pseudocode**](lectures/heaps/heap-code.pdf){: .label .label-code}
 
 Thu, Nov 28
 : No class, Thanksgiving break
