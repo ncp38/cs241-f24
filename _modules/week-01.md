@@ -131,10 +131,11 @@ Thu, Nov 28
 : No class, Thanksgiving break
 
 Tue, Dec 3
-: **Bellman-Ford or Travelling Salesman**
+:**Heap sort and Exception Handling in Java**:
+: [**Exceptions in Java**](lectures/Exceptions/ExceptionHandlingExamples.java){: .label .label-code} 
 
 Thu, Dec 5
-: **Flex day and evals**
+: **Bellman-Ford or Travelling Salesman**
 
 Tue, Dec 10
 : **Wrapup and review for final**  

@@ -7,7 +7,8 @@ public class ExceptionHandlingExamples
         if (age < 18)
         {
             //In Java, there are many different types of exceptions, many of which you will have seen before:
-            //ArithmeticException, ArrayIndexOutOfBoundsException
+            //ArithmeticException, ArrayIndexOutOfBoundsException, etc.
+            //You can actually create and throw these exceptions yourself; see example on the next line.
             throw new ArithmeticException("Access denied - You must be at least 18 years old.");
         } else
         {
@@ -25,7 +26,10 @@ public class ExceptionHandlingExamples
         }
         catch (Exception e) //And the block of code where you do something about the problem...Fail gracefully.
         {
+            //print out path trace
+            System.out.println(e.toString());
             System.out.println("Something went wrong.");
+            throw e;
         }
         finally //This occurs after the above is finished.
         {
@@ -36,6 +40,7 @@ public class ExceptionHandlingExamples
         checkAge(12);
 
         //Example 3 - catching an error
+        System.out.println("Please enter an integer!");
         Scanner intScanner = new Scanner(System.in);
         int i;
         try
