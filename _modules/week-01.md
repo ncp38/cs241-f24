@@ -135,7 +135,9 @@ Tue, Dec 3
 : [**Exceptions in Java**](lectures/Exceptions/ExceptionHandlingExamples.java){: .label .label-code} 
 
 Thu, Dec 5
-: **Bellman-Ford or Travelling Salesman**
+: **Bellman-Ford Algorithm and negative cycles**
+: [**Exceptions in Java**](lectures/BellmanFord/bellmanPseudocode.txt){: .label .label-lecture}
+: [**The Bellman-Ford Algorithm in Java**](lectures/BellmanFord/BellmanFordAlgorithm.java){: .label .label-code}
 
 Tue, Dec 10
 : **Wrapup and review for final**  
