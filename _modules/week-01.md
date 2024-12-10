@@ -136,12 +136,11 @@ Tue, Dec 3
 
 Thu, Dec 5
 : **Bellman-Ford Algorithm and negative cycles**
-: [**Exceptions in Java**](lectures/BellmanFord/bellmanPseudocode.txt){: .label .label-lecture}
-: [**The Bellman-Ford Algorithm in Java**](lectures/BellmanFord/BellmanFordAlgorithm.java){: .label .label-code}
+: [**Bellman-Ford Algorithm Pseudocode**](lectures/BellmanFord/bellmanPseudocode.txt){: .label .label-lecture}
+: [**The Bellman-Ford Algorithm in Java**](lectures/bellmanFord/BellmanFordAlgorithm.java){: .label .label-code}
 
 Tue, Dec 10
 : **Wrapup and review for final**  
-: [**Exceptions in Java**](lectures/Exceptions/ExceptionHandlingExamples.java){: .label .label-code} 
 : [**Final Exam Review**](lectures/examReview/FinalExamReview.pdf){: .label .label-lecture} 
 
 Thu, Dec 12
