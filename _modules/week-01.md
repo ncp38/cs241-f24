@@ -141,6 +141,8 @@ Thu, Dec 5
 
 Tue, Dec 10
 : **Wrapup and review for final**  
+: [**Exceptions in Java**](lectures/Exceptions/ExceptionHandlingExamples.java){: .label .label-code} 
+: [**Final Exam Review**](lectures/examReview/FinalExamReview.pdf){: .label .label-lecture} 
 
 Thu, Dec 12
 : Reading Day
