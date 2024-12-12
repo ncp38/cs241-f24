@@ -142,6 +142,7 @@ Thu, Dec 5
 Tue, Dec 10
 : **Wrapup and review for final**  
 : [**Final Exam Review**](lectures/examReview/FinalExamReview.pdf){: .label .label-lecture} 
+: [**Final Exam Solutions**](lectures/examReview/FinalExamReviewSolutions.pdf){: .label .label-lecture} 
 
 Thu, Dec 12
 : Reading Day
