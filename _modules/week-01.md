@@ -120,7 +120,7 @@ Tue, Nov 19
 : [**Project 6**](projects/proj6){: .label .label-proj } due Dec 4
 
 Thu, Nov 21
-: **Breadth-first search, depth-first search**
+: **Graphs and Graph Search, Continued**
 
 Tue, Nov 26
 : **Priority queues and heaps**  
